@@ -17,8 +17,9 @@ Press any key after each iteration to visualize the next predicted trajectory.
 If you're looking for a dataset of aerial videos, the [MINSK dataset](http://www.tft.lth.se/en/research/video-analysis/co-operation/data-exchange/) (Saunier et al.) is a great option.
 
 ## Dependencies
-1. OpenCV 2.4.11
-2. Python 2.7
+1. C++11.
+2. OpenCV 2.4.11
+3. Python 2.7
 
 ## License
 MIT License
