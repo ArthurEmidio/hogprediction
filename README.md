@@ -1,13 +1,13 @@
-#Vehicle Path Prediction Using HOG
+# Vehicle Path Prediction Using HOG
 
 This repository contains the implementation of an undergraduate research project
 developed with the goal to find trajectories that a vehicle is likely to traverse
 in a scene using [Histogram of Oriented Gradients (HOG)](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients) 
 as main feature.
 
-##Usage
+## Usage
 Insert all frames (as .jpg images) of the input video in a folder named "input" in the same directory where
-the binary is located. The frames must be numbered as: "i.jpg", where i = 0, 1, ..., N.
+the binary is located. The frames must be numbered as: `i.jpg`, where `i = 0, 1, ..., N`.
 
 It is important to note that the frames should always contain the vehicle which will have the trajectory predicted.
 
@@ -16,11 +16,11 @@ Press any key after each iteration to visualize the next predicted trajectory.
 
 If you're looking for a dataset of aerial videos, the [MINSK dataset](http://www.tft.lth.se/en/research/video-analysis/co-operation/data-exchange/) (Saunier et al.) is a great option.
 
-##Dependencies
+## Dependencies
 1. OpenCV 2.4.11
 2. Python 2.7
 
-##License
+## License
 MIT License
 
 Copyright (c) 2016 Arthur Emídio Teixeira Ferreira
