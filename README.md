@@ -3,10 +3,10 @@
 This repository contains the implementation of an undergraduate research project
 developed with the goal to find trajectories that a vehicle is likely to traverse
 in a scene using [Histogram of Oriented Gradients (HOG)](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients) 
-as main feature.
+as the main feature.
 
 ## Usage
-Insert all frames (as .jpg images) of the input video in a folder named "input" in the same directory where
+Insert all frames (as .jpg images) of the input video in a folder named `input` in the same directory where
 the binary is located. The frames must be numbered as: `i.jpg`, where `i = 0, 1, ..., N`.
 
 It is important to note that the frames should always contain the vehicle which will have the trajectory predicted.
